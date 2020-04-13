@@ -31,14 +31,14 @@ This way I can present the features as they get finished, and it will (hopefully
 I think I'll create a new post where I'll put up some actual content and then link to it from the table. I haven't quite decided yet, so we'll see how things
  turn out.
  
-| To do                | Done                 |
-| -------------------- | -------------------- |
-| UnitManager*         | Movement             |
-| Recreate scene with: | FieldOfView          |
-| `Scriptable objects` | TargetAcquisition    |
-| `Object Pooling`     | WeaponSystem         |
-| Compare Scenes       | AimSystem            |
-|                      | ParticleEffects      |
+| To do                  | Done                   |
+| ---------------------- | ---------------------- |
+| UnitManager*           | Movement               |
+| Recreate scene with:   | FieldOfView            |
+| `Scriptable objects`   | TargetAcquisition      |
+| `Object Pooling`       | WeaponSystem           |
+| Compare Scenes         | AimSystem              |
+|                        | ParticleEffects        |
 
 *The unit manager is more of an editor tool that will make it easier for me to place out units in the scene. If I'm going to have around a thousand units
  in a scene, I wouldn't want to place them all out manually.
