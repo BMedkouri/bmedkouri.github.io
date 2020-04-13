@@ -9,6 +9,44 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/* Loading bar */
+
+@keyframes page-load {
+  from {
+    color: rgba(70, 110, 230, 0.9);
+    background-color: rgba(65, 105, 225, 1);
+    width: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  60% {
+    color: rgba(150, 221, 255, 0.9);
+    background-color: rgba(145, 206, 250, 1);
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    color: rgba(140, 211, 255, 0);
+    background-color: rgba(135, 206, 250, 0);
+    width: 100%;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  }
+}
+
+.page-loading::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  z-index: 10;
+  height: 2px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  animation: page-load 1s ease-out 0s 1;
+}
+
+/***************/
+
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -18,7 +56,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -46,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+
   a {
     color: inherit;
   }
@@ -71,7 +110,8 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+
   &:hover, &:active {
     color: $blue;
   }
@@ -125,6 +165,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -134,12 +175,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -210,7 +251,7 @@ img {
   }
 }
 
-nav {
+.Header-nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
@@ -223,6 +264,7 @@ nav {
     font-size: 16px;
   }
 
+
   a {
     margin-left: 20px;
     color: $darkGray;
@@ -232,8 +274,27 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      //color: $blue;
     }
+  }
+}
+
+.Fade-nav:hover a {
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.Fade-nav a {
+  color: black;
+
+  opacity: 1;
+  transition: opacity 0.5s;
+
+  &:hover, &:active {
+    color: black;
   }
 }
 

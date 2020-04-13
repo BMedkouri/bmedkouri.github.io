@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -9,8 +9,16 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Google AdSense
+    <script data-ad-client="ca-pub-9098475829206861" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    -->
+
+    <!-- Loading Bar -->
+    <script type="text/javascript" src="{{ site.baseurl }}/scripts/LoadingBar.js"></script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -26,7 +34,7 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+          <nav class="Fade-nav Header-nav">
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
@@ -41,7 +49,9 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          <nav class="Fade-nav">
+            {% include svg-icons.html %}
+          </nav>
         </footer>
       </div>
     </div>

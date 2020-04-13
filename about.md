@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
-Some information about you!
+![A picture of me in the Swiss alps. There's a pretty big mountain in the background]({{ site.baseurl }}/images/about-picture-of-me.jpg "A picture of me in the Swiss alps. There's a pretty big mountain in the background")
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Aspiring game developer. 
+More to come..!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+For more information about me, or if you'd like to get in touch, feel free to check me out on any of my social media accounts.  
+You can find them at the bottom of the page.
