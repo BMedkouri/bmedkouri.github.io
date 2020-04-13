@@ -27,7 +27,7 @@ Like I wrote earlier, I never finished the project. However, I would like to fin
  here. At least for me.  
 What I'm going to do instead is first present two list of features for the project. One list will contain items that I've finished, or that are presentable
  at least, and another list that will contain items that have yet to be finished.
-This way I can present the features as they get finished, and it will (hopefully) give me some incentive to complete the entire project instead of parts of it.  
+This way I can present the features as they get finished, and it will (hopefully) give me some incentive to complete the entire project instead of just parts of it.  
 I think I'll create a new post where I'll put up some actual content and then link to it from the table. I haven't quite decided yet, so we'll see how things
  turn out.
  
