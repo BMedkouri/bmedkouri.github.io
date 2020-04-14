@@ -7,7 +7,8 @@ queue, mono, behaviour, monobehaviour, scriptable, object, scriptableobject, mov
 pathfinding, nav, mesh, agent, navmesh, target, acquisition, field, of, view, fov, aim, system]
 ---
 
-Hi there!  
+Hi there!
+
 This project is (mainly) about optimization in Unity and I'll be going over a few different approaches to setting up basic AI as well as some other systems, and how these
 approaches differ in performance. 
 
