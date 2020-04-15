@@ -44,7 +44,7 @@ I think I'll create a new post where I'll put up some actual content and then li
  in a scene, I wouldn't want to place them all out manually.
  
 Here's a gif showcasing the current state of the project:
-![Units running around shooting at each other](../images/optimization_13-04-20.gif "Path finding, field of view, and target acquisition.")
+![Units running around shooting at each other](optimization_13-04-20.gif "Path finding, field of view, and target acquisition.")
  
  
 
